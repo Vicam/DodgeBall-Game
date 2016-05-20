@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dommage</title>
+	 <script src="config.js"></script>
+	 <script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
+	 <script type='text/javascript' src="//wurfl.io/wurfl.js"></script> 
+	 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	 <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	  
+	<script src="ecran.js"></script>
+	<link rel="stylesheet" href="index.css"/> 
+	  
+</head>
+
+<body>
+
+	<div data-role="page" class="ui-page ui-body-c ui-page-footer-fixed ui-page-active" style="padding-bottom: 53px; min-height: 458px;">
+	<img id="touche" style ="width:100%;" src="ressources/YouWin.png">
+		<div data-role="header" class="ui-header ui-bar-a" role="banner">
+			<h1 class="ui-title" role="heading" aria-level="1">Rejouer ?</h1>
+		</div>
+
+		<div data-role="content" class="ui-content" role="main">
+			<div data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" data-disabled="false" class="ui-btn ui-btn-up-c ui-shadow ui-btn-corner-all" aria-disabled="false">
+				<div id = "log"></div>
+				<input id="buttonCreerPartie" type="button" value="Creer une Partie" class="ui-btn-hidden" data-disabled="false">
+				<input id="buttonRejoindrePartie" type="button" value="Rejoindre une Partie" class="ui-btn-hidden" data-disabled="false">
+			</div>		
+		</div>
+		
+	</div>
+</body>
+</html> 
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Balls</title>
+	 <script src="config.js"></script>
+	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	 <script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
+	 <script type='text/javascript' src="//wurfl.io/wurfl.js"></script> 
+	  <script src="jquery-ui-1.11.4/jquery-1.10.2.js"></script>
+	 <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+	 
+	 <script src="ecran.js"></script>
+	 <link rel="stylesheet" href="index.css"/>
+	  
+</head>
+
+<body>
+	<h1> Espace de jeu </h1>
+	<canvas id="playground" ></canvas> 
+	<br><br>
+
+
+	<center>
+		<label>Selectionner votre role : </label>
+		<form id="role">
+			<table>
+				<form>
+					  <div id="radio">
+						<input type="radio" id="radio1" name="radio"><label for="radio1">Terrain</label>
+						<input type="radio" id="radio2" name="radio"><label for="radio2">Cible</label>
+						<input type="radio" id="radio3" name="radio"><label for="radio2">Tireur</label>
+					</div>
+				</form>
+				<tr>
+					<td><input id="button" type="button"  value="Go!"></td>
+				</tr>
+			</table>
+		</form>
+	</center>
+
+</body>
+</html> 
+-->
+
