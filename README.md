@@ -3,7 +3,7 @@
 ### What is this repository for? ###
 
 Student project: Utilization of NodeJS and WebSockets for a cross device game.
-The Game: #lien youtube#
+The Game: https://www.youtube.com/watch?v=TVqBVEjtVl4&feature=youtu.be
 Usually, a computer initiate the game and will play the field role (players will watch this screen during the game). Each player will connect their smartphone/tablet to the game (used like joystick).
 Two teams, one team throw the ball, the other dodge it and the role alternate.
 
